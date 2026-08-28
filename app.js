@@ -1,4 +1,4 @@
-const EVENTS=[{"date":"2026-08-17","type":"practice","title":"体験会・通常練習","time":"19:00〜21:00","place":"五泉中学校","detail":"ABC Basketball Club 体験会"},{"date":"2026-08-20","type":"practice","title":"体験会・通常練習","time":"19:00〜21:00","place":"五泉中学校","detail":"ABC Basketball Club 体験会"},{"date":"2026-08-22","type":"camp","title":"新発田合宿 1日目","time":"終日","place":"新発田方面","detail":"A戦・B戦を実施","result":"A戦 ●24-25 / B戦 ●11-17 / A戦 ○26-25 / B戦 △8-8"},{"date":"2026-08-23","type":"camp","title":"新発田合宿 2日目","time":"終日","place":"新発田方面","detail":"A戦・B戦を実施","result":"A戦 ●17-26 / B戦 ●13-26 / A戦 ○24-22 / B戦 ●4-15"},{"date":"2026-08-24","type":"practice","title":"体験会・通常練習","time":"19:00〜21:00","place":"五泉中学校","detail":"ABC Basketball Club 体験会"},{"date":"2026-08-27","type":"practice","title":"体験会・通常練習","time":"19:00〜21:00","place":"五泉中学校","detail":"ABC Basketball Club 体験会"},{"date":"2026-08-29","type":"practice","title":"チーム練習","time":"9:00〜11:00","place":"さくらアリーナ","detail":"チーム練習"},{"date":"2026-08-30","type":"game","title":"北区夏季リーグ戦","time":"8:00開場／8:15代表者会議／8:40第1試合","place":"新潟市北地区スポーツセンター","detail":"競技終了予定17:30。ABC参加。午前予選リーグ、午後順位リーグ。"},{"date":"2026-08-31","type":"practice","title":"体験会・通常練習","time":"19:00〜21:00","place":"五泉中学校","detail":"ABC Basketball Club 体験会"},{"date":"2026-09-05","type":"practice","title":"チーム練習・フリー練習","time":"9:00〜12:00","place":"五泉総合体育館","detail":"9:00〜11:00 チーム練習／11:00〜12:00 フリー練習"},{"date":"2026-09-06","type":"off","title":"オフ","time":"終日","place":"","detail":"活動なし"},{"date":"2026-09-12","type":"practice","title":"チーム練習・フリー練習","time":"9:00〜12:00","place":"小須戸体育館","detail":"9:00〜11:00 チーム練習／11:00〜12:00 フリー練習"},{"date":"2026-09-13","type":"practice","title":"チーム練習・フリー練習","time":"9:00〜12:00","place":"小須戸体育館","detail":"9:00〜11:00 チーム練習／11:00〜12:00 フリー練習"},{"date":"2026-09-19","type":"game","title":"強化練習試合","time":"時間未定","place":"分水","detail":"強化練習試合"},{"date":"2026-09-20","end":"2026-09-22","type":"trip","title":"埼玉遠征 A","time":"2泊3日","place":"埼玉県","detail":"宿泊：いなり旅館"},{"date":"2026-09-21","end":"2026-09-22","type":"trip","title":"埼玉遠征 B","time":"1泊2日","place":"埼玉県","detail":"マイクロバス移動／宿泊：いなり旅館"},{"date":"2026-09-23","type":"off","title":"オフ","time":"終日","place":"","detail":"活動なし"},{"date":"2026-09-26","type":"practice","title":"練習予定","time":"時間未定","place":"会場未定","detail":"練習予定"},{"date":"2026-09-27","type":"off","title":"オフ","time":"終日","place":"","detail":"活動なし"}];
+const EVENTS=[{"date":"2026-07-04","type":"game","title":"東京学館練習試合","time":"集合 12:20","place":"東京学館","detail":"集合時間 12:20（体育館出入り口）"},{"date":"2026-07-05","type":"off","title":"オフ","time":"終日","place":"","detail":"活動なし"},{"date":"2026-07-11","type":"off","title":"オフ","time":"終日","place":"","detail":"活動なし"},{"date":"2026-07-12","type":"off","title":"オフ","time":"終日","place":"","detail":"活動なし"},{"date":"2026-07-18","type":"game","title":"新潟ALLSTAR☆SUMMER CAMP","time":"集合 8:30","place":"潟東コミュニティセンター","detail":"集合時間 8:30"},{"date":"2026-07-19","type":"game","title":"練習試合 vs新潟青陵高校","time":"集合 12:50／終了 16:00予定","place":"新潟青陵大学体育館","detail":"集合時間 12:50／終了時間 16:00（予定）"},{"date":"2026-07-20","type":"trip","title":"日帰り富山遠征","time":"集合 8:50予定（現地）","place":"富山県","detail":"日帰り富山遠征"},{"date":"2026-07-25","type":"game","title":"練習試合 vs日本文理、グリーンダイヤ","time":"集合 8:30","place":"新潟青陵大学体育館","detail":"集合時間 8:30／午前のみ予定"},{"date":"2026-07-26","type":"off","title":"オフ","time":"終日","place":"五泉総合体育館","detail":"活動なし。五泉総合体育館DEコート 13:00〜16:00 シューティングで使用可能。"},{"date":"2026-08-17","type":"practice","title":"体験会・通常練習","time":"19:00〜21:00","place":"五泉中学校","detail":"ABC Basketball Club 体験会"},{"date":"2026-08-20","type":"practice","title":"体験会・通常練習","time":"19:00〜21:00","place":"五泉中学校","detail":"ABC Basketball Club 体験会"},{"date":"2026-08-22","type":"camp","title":"新発田合宿 1日目","time":"終日","place":"新発田方面","detail":"A戦・B戦を実施","result":"A戦 ●24-25 / B戦 ●11-17 / A戦 ○26-25 / B戦 △8-8"},{"date":"2026-08-23","type":"camp","title":"新発田合宿 2日目","time":"終日","place":"新発田方面","detail":"A戦・B戦を実施","result":"A戦 ●17-26 / B戦 ●13-26 / A戦 ○24-22 / B戦 ●4-15"},{"date":"2026-08-24","type":"practice","title":"体験会・通常練習","time":"19:00〜21:00","place":"五泉中学校","detail":"ABC Basketball Club 体験会"},{"date":"2026-08-27","type":"practice","title":"体験会・通常練習","time":"19:00〜21:00","place":"五泉中学校","detail":"ABC Basketball Club 体験会"},{"date":"2026-08-29","type":"practice","title":"チーム練習","time":"9:00〜11:00","place":"さくらアリーナ","detail":"チーム練習"},{"date":"2026-08-30","type":"game","title":"北区夏季リーグ戦","time":"8:00開場／8:15代表者会議／8:40第1試合","place":"新潟市北地区スポーツセンター","detail":"競技終了予定17:30。ABC参加。午前予選リーグ、午後順位リーグ。"},{"date":"2026-08-31","type":"practice","title":"体験会・通常練習","time":"19:00〜21:00","place":"五泉中学校","detail":"ABC Basketball Club 体験会"},{"date":"2026-09-05","type":"practice","title":"チーム練習・フリー練習","time":"9:00〜12:00","place":"五泉総合体育館","detail":"9:00〜11:00 チーム練習／11:00〜12:00 フリー練習"},{"date":"2026-09-06","type":"off","title":"オフ","time":"終日","place":"","detail":"活動なし"},{"date":"2026-09-12","type":"practice","title":"チーム練習・フリー練習","time":"9:00〜12:00","place":"小須戸体育館","detail":"9:00〜11:00 チーム練習／11:00〜12:00 フリー練習"},{"date":"2026-09-13","type":"practice","title":"チーム練習・フリー練習","time":"9:00〜12:00","place":"小須戸体育館","detail":"9:00〜11:00 チーム練習／11:00〜12:00 フリー練習"},{"date":"2026-09-19","type":"game","title":"強化練習試合","time":"時間未定","place":"分水","detail":"強化練習試合"},{"date":"2026-09-20","end":"2026-09-22","type":"trip","title":"埼玉遠征 A","time":"2泊3日","place":"埼玉県","detail":"宿泊：いなり旅館"},{"date":"2026-09-21","end":"2026-09-22","type":"trip","title":"埼玉遠征 B","time":"1泊2日","place":"埼玉県","detail":"マイクロバス移動／宿泊：いなり旅館"},{"date":"2026-09-23","type":"off","title":"オフ","time":"終日","place":"","detail":"活動なし"},{"date":"2026-09-26","type":"practice","title":"練習予定","time":"時間未定","place":"会場未定","detail":"練習予定"},{"date":"2026-09-27","type":"off","title":"オフ","time":"終日","place":"","detail":"活動なし"}];
 
 const STAFF_BY_DATE={
   "2026-09-19":"高田ヘッドコーチ／二瓶アシスタントコーチ／ゆいアシスタントコーチ",
@@ -13,134 +13,20 @@ const label={practice:"練習",game:"試合",camp:"合宿",trip:"遠征",off:"�
 const icon={practice:"⛹️",game:"🏀",camp:"🏕",trip:"🚌",off:"💤"};
 const now=new Date();
 let view=new Date(now.getFullYear(),now.getMonth(),1);
-
 function parse(s){let [y,m,d]=s.split("-").map(Number);return new Date(y,m-1,d)}
 function fmt(d){return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`}
-function occurs(e,ds){const d=parse(ds),a=parse(e.date),b=parse(e.end||e.date);return d>=a&&d<=b}
-
 const TODAY=fmt(new Date());
-
-const RECURRING_RULES=[
-  {weekday:1,start:"2026-04-01",end:"2027-03-31",type:"practice",title:"通常練習",time:"19:00〜21:00",place:"五泉中学校",detail:"月曜日 通常練習"},
-  {weekday:3,start:"2026-04-01",end:"2027-03-31",type:"practice",title:"通常練習",time:"19:00〜21:00",place:"五泉総合体育館",detail:"水曜日 通常練習"},
-  {weekday:4,start:"2026-04-01",end:"2027-03-31",type:"practice",title:"通常練習",time:"19:00〜21:00",place:"五泉中学校",detail:"木曜日 通常練習"}
-];
-
+const RECURRING_RULES=[{weekday:1,start:"2026-04-01",end:"2027-03-31",type:"practice",title:"通常練習",time:"19:00〜21:00",place:"五泉中学校",detail:"月曜日 通常練習"},{weekday:3,start:"2026-04-01",end:"2027-03-31",type:"practice",title:"通常練習",time:"19:00〜21:00",place:"五泉総合体育館",detail:"水曜日 通常練習"},{weekday:4,start:"2026-04-01",end:"2027-03-31",type:"practice",title:"通常練習",time:"19:00〜21:00",place:"五泉中学校",detail:"木曜日 通常練習"}];
 const EVENTS_BY_DATE=new Map(),MONTH_EVENTS=new Map();
-for(const e of EVENTS){
-  const start=parse(e.date),end=parse(e.end||e.date),monthSeen=new Set();
-  for(let d=new Date(start);d<=end;d.setDate(d.getDate()+1)){
-    const ds=fmt(d);
-    if(!EVENTS_BY_DATE.has(ds))EVENTS_BY_DATE.set(ds,[]);
-    EVENTS_BY_DATE.get(ds).push(e);
-    const mk=`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}`;
-    if(!monthSeen.has(mk)){
-      if(!MONTH_EVENTS.has(mk))MONTH_EVENTS.set(mk,[]);
-      MONTH_EVENTS.get(mk).push(e);
-      monthSeen.add(mk)
-    }
-  }
-}
-
-function recurringForDate(d){
-  const ds=fmt(d),out=[];
-  const manualEvents=EVENTS_BY_DATE.get(ds)||[];
-  const hasSpecialEvent=manualEvents.some(e=>["game","camp","trip","off"].includes(e.type));
-  if(hasSpecialEvent)return out;
-  for(const r of RECURRING_RULES){
-    if(d.getDay()!==r.weekday||ds<r.start||ds>r.end)continue;
-    const manual=manualEvents.some(e=>e.type===r.type&&e.time===r.time&&e.place===r.place);
-    if(!manual)out.push({date:ds,type:r.type,title:r.title,time:r.time,place:r.place,detail:r.detail,recurring:true});
-  }
-  return out
-}
+for(const e of EVENTS){const start=parse(e.date),end=parse(e.end||e.date),monthSeen=new Set();for(let d=new Date(start);d<=end;d.setDate(d.getDate()+1)){const ds=fmt(d);if(!EVENTS_BY_DATE.has(ds))EVENTS_BY_DATE.set(ds,[]);EVENTS_BY_DATE.get(ds).push(e);const mk=`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}`;if(!monthSeen.has(mk)){if(!MONTH_EVENTS.has(mk))MONTH_EVENTS.set(mk,[]);MONTH_EVENTS.get(mk).push(e);monthSeen.add(mk)}}}
+function recurringForDate(d){const ds=fmt(d),out=[];const manualEvents=EVENTS_BY_DATE.get(ds)||[];if(manualEvents.some(e=>["game","camp","trip","off"].includes(e.type)))return out;for(const r of RECURRING_RULES){if(d.getDay()!==r.weekday||ds<r.start||ds>r.end)continue;const manual=manualEvents.some(e=>e.type===r.type&&e.time===r.time&&e.place===r.place);if(!manual)out.push({date:ds,type:r.type,title:r.title,time:r.time,place:r.place,detail:r.detail,recurring:true})}return out}
 function eventsForDate(d){return [...(EVENTS_BY_DATE.get(fmt(d))||[]),...recurringForDate(d)]}
 function recurringForMonth(y,m){const out=[],last=new Date(y,m+1,0).getDate();for(let day=1;day<=last;day++)out.push(...recurringForDate(new Date(y,m,day)));return out}
 function move(n){view=new Date(view.getFullYear(),view.getMonth()+n,1);render()}
 function goToday(){const t=new Date();view=new Date(t.getFullYear(),t.getMonth(),1);render()}
-
-function openEvent(e){
-  document.getElementById("tag").textContent=(icon[e.type]||"")+" "+(label[e.type]||"予定");
-  document.getElementById("dtitle").textContent=e.title;
-  document.getElementById("ddate").innerHTML="<b>日時</b><br>"+e.date+(e.end?" ～ "+e.end:"")+"　"+(e.time||"");
-  document.getElementById("dplace").innerHTML="<b>会場</b><br>"+(e.place||"未定");
-  document.getElementById("dtext").innerHTML="<b>内容</b><br>"+(e.detail||"");
-  const r=document.getElementById("dresult");
-  if(e.result){r.style.display="block";r.innerHTML="<b>結果</b><br>"+e.result}else r.style.display="none";
-  const docs=document.getElementById("driveDocs");
-  docs.innerHTML="";
-  const staff=STAFF_BY_DATE[e.date];
-  if(staff){
-    const s=document.createElement("div");
-    s.className="action";
-    s.textContent="👥 コーチ出席："+staff;
-    docs.appendChild(s)
-  }
-  const rs=RESOURCES[e.date]||[];
-  rs.forEach(r=>{
-    const a=document.createElement("a");
-    a.className="action";
-    a.target="_blank";
-    a.rel="noopener noreferrer";
-    a.href=r.url;
-    a.textContent="📄 大会資料を見る："+r.title;
-    docs.appendChild(a)
-  });
-  document.getElementById("detail").classList.add("show")
-}
+function openEvent(e){document.getElementById("tag").textContent=(icon[e.type]||"")+" "+(label[e.type]||"予定");document.getElementById("dtitle").textContent=e.title;document.getElementById("ddate").innerHTML="<b>日時</b><br>"+e.date+(e.end?" ～ "+e.end:"")+"　"+(e.time||"");document.getElementById("dplace").innerHTML="<b>会場</b><br>"+(e.place||"未定");document.getElementById("dtext").innerHTML="<b>内容</b><br>"+(e.detail||"");const r=document.getElementById("dresult");if(e.result){r.style.display="block";r.innerHTML="<b>結果</b><br>"+e.result}else r.style.display="none";const docs=document.getElementById("driveDocs");docs.innerHTML="";const staff=STAFF_BY_DATE[e.date];if(staff){const s=document.createElement("div");s.className="action";s.textContent="👥 コーチ出席："+staff;docs.appendChild(s)}const rs=RESOURCES[e.date]||[];rs.forEach(r=>{const a=document.createElement("a");a.className="action";a.target="_blank";a.rel="noopener noreferrer";a.href=r.url;a.textContent="📄 大会資料を見る："+r.title;docs.appendChild(a)});document.getElementById("detail").classList.add("show")}
 function closeDetail(){document.getElementById("detail").classList.remove("show")}
 function openStaff(){document.getElementById("staffm").classList.add("show")}
 function closeStaff(){document.getElementById("staffm").classList.remove("show")}
-
-function render(){
-  const y=view.getFullYear(),m=view.getMonth();
-  document.getElementById("monthTitle").textContent=`${y}年 ${m+1}月`;
-  const first=new Date(y,m,1),start=new Date(y,m,1-first.getDay());
-  const grid=document.getElementById("grid");
-  grid.innerHTML="";
-  for(let i=0;i<42;i++){
-    const d=new Date(start);
-    d.setDate(start.getDate()+i);
-    const ds=fmt(d);
-    const cell=document.createElement("div");
-    cell.className="day"+(d.getMonth()!=m?" other":"");
-    const n=document.createElement("div");
-    n.className="num";
-    const isToday=ds===TODAY;
-    n.innerHTML=isToday?`<span class="todaymark">${d.getDate()}</span>`:`${d.getDate()}`;
-    if(d.getDay()==0&&!isToday)n.style.color="#c94d4d";
-    if(d.getDay()==6&&!isToday)n.style.color="#4779c9";
-    cell.appendChild(n);
-    const es=eventsForDate(d);
-    es.slice(0,3).forEach(e=>{
-      const el=document.createElement("div");
-      el.className="ev "+e.type;
-      el.textContent=e.title;
-      el.onclick=()=>openEvent(e);
-      cell.appendChild(el)
-    });
-    if(es.length>3){
-      const more=document.createElement("div");
-      more.className="more";
-      more.textContent=`＋${es.length-3}件`;
-      cell.appendChild(more)
-    }
-    grid.appendChild(cell)
-  }
-
-  const cards=document.getElementById("cards");
-  cards.innerHTML="";
-  const mk=`${y}-${String(m+1).padStart(2,"0")}`;
-  const mes=[...(MONTH_EVENTS.get(mk)||[]),...recurringForMonth(y,m)].sort((a,b)=>a.date.localeCompare(b.date));
-  if(!mes.length)cards.innerHTML='<div class="card" style="display:block;text-align:center;color:#6b7570;font-size:12px">この月の予定はありません。</div>';
-  mes.forEach(e=>{
-    const d=parse(e.date),c=document.createElement("div");
-    c.className="card";
-    c.onclick=()=>openEvent(e);
-    const hasDoc=(RESOURCES[e.date]||[]).length>0;
-    const hasStaff=!!STAFF_BY_DATE[e.date];
-    c.innerHTML=`<div class="datebox">${d.getMonth()+1}/${d.getDate()}<small>${["日","月","火","水","木","金","土"][d.getDay()]}</small></div><div><h3>${icon[e.type]||""} ${e.title}${hasStaff?"　👥":""}${hasDoc?"　📄":""}</h3><div class="meta">${e.time||""}<br>${e.place||""}</div></div>`;
-    cards.appendChild(c)
-  })
-}
+function render(){const y=view.getFullYear(),m=view.getMonth();document.getElementById("monthTitle").textContent=`${y}年 ${m+1}月`;const first=new Date(y,m,1),start=new Date(y,m,1-first.getDay());const grid=document.getElementById("grid");grid.innerHTML="";for(let i=0;i<42;i++){const d=new Date(start);d.setDate(start.getDate()+i);const ds=fmt(d);const cell=document.createElement("div");cell.className="day"+(d.getMonth()!=m?" other":"");const n=document.createElement("div");n.className="num";const isToday=ds===TODAY;n.innerHTML=isToday?`<span class="todaymark">${d.getDate()}</span>`:`${d.getDate()}`;if(d.getDay()==0&&!isToday)n.style.color="#c94d4d";if(d.getDay()==6&&!isToday)n.style.color="#4779c9";cell.appendChild(n);const es=eventsForDate(d);es.slice(0,3).forEach(e=>{const el=document.createElement("div");el.className="ev "+e.type;el.textContent=e.title;el.onclick=()=>openEvent(e);cell.appendChild(el)});if(es.length>3){const more=document.createElement("div");more.className="more";more.textContent=`＋${es.length-3}件`;cell.appendChild(more)}grid.appendChild(cell)}const cards=document.getElementById("cards");cards.innerHTML="";const mk=`${y}-${String(m+1).padStart(2,"0")}`;const mes=[...(MONTH_EVENTS.get(mk)||[]),...recurringForMonth(y,m)].sort((a,b)=>a.date.localeCompare(b.date));if(!mes.length)cards.innerHTML='<div class="card" style="display:block;text-align:center;color:#6b7570;font-size:12px">この月の予定はありません。</div>';mes.forEach(e=>{const d=parse(e.date),c=document.createElement("div");c.className="card";c.onclick=()=>openEvent(e);const hasDoc=(RESOURCES[e.date]||[]).length>0;const hasStaff=!!STAFF_BY_DATE[e.date];c.innerHTML=`<div class="datebox">${d.getMonth()+1}/${d.getDate()}<small>${["日","月","火","水","木","金","土"][d.getDay()]}</small></div><div><h3>${icon[e.type]||""} ${e.title}${hasStaff?"　👥":""}${hasDoc?"　📄":""}</h3><div class="meta">${e.time||""}<br>${e.place||""}</div></div>`;cards.appendChild(c)})}
 render()
