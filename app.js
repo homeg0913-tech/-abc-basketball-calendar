@@ -37,9 +37,12 @@ for(const e of EVENTS){
 
 function recurringForDate(d){
   const ds=fmt(d),out=[];
+  const manualEvents=EVENTS_BY_DATE.get(ds)||[];
+  const hasSpecialEvent=manualEvents.some(e=>["game","camp","trip"].includes(e.type));
+  if(hasSpecialEvent)return out;
   for(const r of RECURRING_RULES){
     if(d.getDay()!==r.weekday||ds<r.start||ds>r.end)continue;
-    const manual=(EVENTS_BY_DATE.get(ds)||[]).some(e=>e.type===r.type&&e.time===r.time&&e.place===r.place);
+    const manual=manualEvents.some(e=>e.type===r.type&&e.time===r.time&&e.place===r.place);
     if(!manual)out.push({date:ds,type:r.type,title:r.title,time:r.time,place:r.place,detail:r.detail,recurring:true});
   }
   return out
