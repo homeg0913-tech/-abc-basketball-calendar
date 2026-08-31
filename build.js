@@ -2,9 +2,9 @@ const fs = require('fs');
 const path = require('path');
 
 const encrypted = Object.freeze({
-  salt: '5py1GCg7AzmwV+K3j0U7/Q==',
-  iv: 'P1Cok11+VN7Y0YnG',
-  ciphertext: 'HqFAPsccC4SL6LGnmU+SqZPM+TMVRNXQ55fr90SbtfLmtCPdcLd4oUkWnXjM/uZR9zSQAlfCQWuP5FPli2gZIssNcZB6/dqNEJpx5tVDHuD2eUf45jvOTQ5Pqzsor3MOL3QspLRpk4v9DeJ+T4wgUjGgC6OxpbA5Os2nNL2vJ+eHxqGU2/8/EUZtCYZ7I+0dSSex95zvSfQ2v6vYON+E1sG4Vz9SZNoFAV56C5psBFLTlMCsH/xiN6mIo2sls3qCqGgjF6K4vN7w8FLXgc1nVKMgKKhEfKPu+lRO/8QpTjLnkGChygcz9aq61Qwn0cd4ZCOfYNAGJFAXmoAqgwifgTn3S6ryJn7Y9e2KQt1Cg2UTF1kEQM01JYCLOUgdC3yeUAZGlk1DOSBY/sher2IRvqhKd0VrFjoDZg1g0fjip9mXRzecfvimdgBwKIf9C8FhNEDTryzoRS/0NOC1MjWrS82Xocbf5NZorxgJ2+0iWeDRQS+bz+jIiTiTQhm0qKS+hT3OrDcM6jCgPKqmzVzHiDMg/54bSOqz9GqLurnxoxyCdibJU9VS+lr1kGM0Bkkq4sa1EVB8kE5hMxaVDnel2+hhhI1tBbU8Lmu61SCk0tcLE+w+nnskJnZgsOErVbFDwzeg9b/c7tPXA528gedkUbFVX4y2Ir2UThol+PAp7daIXFlungDcUGReM+2r7uH3jEVSGP59a7pLy6Vt5LJDPb50L0UDpMBg6NgouBCNtswq+vM=',
+  salt: 'V/MX+4mPUMgBaQiNrI41+g==',
+  iv: 'jkU+UgTNPz7KLJU1',
+  ciphertext: '8SQH9sVlM4lbY2IDlsL0iEnRrycalRqpnRlihORX/4aqdAGInBWiEzSi4feb6R2eNTEYb8OmXDwW9LouLDnig4XxpAMilYheGjSVGQLfLHcBE4wEUsmNHAqmmsToInXO522wsXgQwTTSoaa9GKgenkYaKV/MzmKY+rSVDRHRQ8MJrciY5IkrtS+KLO30GvicO+2wg2LxNeL1Sdz6YrgBIkl/3YuPlsoQdZs4apZe9CtAzsoTp9dXKp8mujmLArXfAe2DsRtP4CbaC3o2hLrYKhohuLsmw+eyttORrsW33H71h8lRHsSTS9mG5N6kfZJie6L6gUWEXPzicfRYl62z8/Ooedb7y8ZI0BSA3SybG+bVFiI6/JNhdh1eKOUW3YH2M1mqj7yT6QDySi1/hR681mjhz1R11cx4+D1hxxMGqjr9dyOzPDKOjoZEJ4n/1Z4sTxxtn5UErZmcmI+vUiloTR/iIasSUPN3O8tJ2lr6kIj6EEqOrgeAI8dICgpgbBROlnSsB3KwGhkCb3U5kfsKWn16eQuVqGrnG9zBSAuCJ9+FTM6hYujmt6ujiKBPblfrHnLjpyoQQPnliYP1YTrb7/DrYfiw/cLT58AZ+bHJDfrL2W6gEn/JP+QhwWs6igQUQdV54sVcjb4Lz8Bq7TATOUYwYdT0pW352nOTl6F0O/h9B5V+S3NehzuU4oVFhAK2jcGYhtrdGX2M7uKi/OzIKsCe69hOs3U=',
   iterations: 350000,
   aad: 'ABC-STAFF-TRIALS-v1'
 });
